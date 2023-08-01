@@ -1,0 +1,53 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';    
+
+nav {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+body {
+    background-color: rgb(223, 223, 223);
+}
+
+.text-banner {
+    text-shadow: 5px 3px 1px rgb(0, 0, 0, 0.7);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.letterS {
+    color: rgb(218, 185, 1);
+    -webkit-text-stroke: 3px #2e2e2e;
+}
+
+.letterP {
+    color: black;
+    text-shadow: none;
+    -webkit-text-stroke: 3px rgb(173, 173, 173);
+}
+
+.letterPls {
+    color: rgb(218, 185, 1);
+    font-size: xx-large;
+}
+
+.goldHr {
+    border-color: rgb(218, 185, 1);
+    border-width: 1px;
+    margin: 30px;
+    width: 50%;
+}
+
+.mobile-menu-hidden {
+    display: none;
+}
+
+
+.imgb2 {
+    padding: 50px;    
+}
+
+.descCab {
+    padding: 100px;
+}

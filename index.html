@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penny Star</title>
+  <link rel="shortcut icon" href="Resource/logo.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  
+  <!-- /* Libreria animaciones */ -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-qsj3xxI5tO4w2enjN9S3SbtZn50t3V/eJqtr0fbVT7u2dny8i5KTj10yXwobZuvP3PtSJVV2jbQnyj/dqbGJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+  <nav class="p-5" >
+    <div class="max-w-xl px-2 sm:px-6 lg:px-8">
+      <div class="relative flex ">
+        <div id="mobile-menu" class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+          <!-- Mobile menu button-->
+          <button type="button" class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+            
+            <!--
+              Icon when menu is closed.
+  
+              Menu open: "hidden", Menu closed: "block"
+            -->
+            <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+            <!--
+              Icon when menu is open.
+  
+              Menu open: "block", Menu closed: "hidden"
+            -->
+            <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>          
+        </div>
+        <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+          <div class="flex flex-shrink-0 items-center">
+            <img class="h-8 w-auto" src="Resource/logo.png" alt="PennyStar_Logo">
+          </div>
+          <div class="hidden sm:ml-6 sm:block">
+            <div class="flex space-x-4">
+              <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+              <a href="index.html" class="bg-yellow-500 text-white hover:text-black rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Inicio</a>
+              <a href="decoracion.html" class="text-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Decoracion</a>
+              <a href="macetas.html" class="text-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Macetas</a>
+              <a href="otros.html" class="text-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Otros</a>
+            </div>
+          </div>
+        </div>
+       
+        </div>
+      </div>
+    </div>
+    <div class="sm:hidden mobile-menu-hidden" id="mobile-menu">
+      <div class="space-y-1 px-2 pb-3 pt-2">
+        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+        <a href="index.html" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Inicio</a>
+        <a href="decoracion.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Decoracion</a>
+        <a href="macetas.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Macetas</a>
+        <a href="otros.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Otros</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <header class="bg-[url('Resource/Banner.jpeg')] bg-center bg-cover h-96 bg-no-repeat w-full"> 
+    <div class="text-banner flex justify-center items-center h-96 ">
+      <div class="animate__animated animate__fadeIn">
+        <h1 class="text-white text-center text-8xl drop-shadow-2xl"><span class="letterP">P</span>enny <span class="letterS">S</span>tar</h1>
+      </div>
+    </div>
+  </header>
+  <main class="container mx-auto">
+
+   <section>
+    <div class="pt-10 animate__animated animate__animated" data-aos="fade-up">
+      <div class="flex justify-center">
+        <hr class="goldHr">
+      </div>
+        <h2 class="text-3xl font-bold tracking-tight sm:text-4xl text-center"><span class="letterPls text-6xl">C</span>atalogo de <span class="letterPls text-6xl">P</span>roductos</h2>
+        <div class="flex justify-center">
+          <hr class="goldHr">
+      </div>
+      </div>
+      <div class="text-center bloq-ab bg-white p-20 mt-10 font-serif" data-aos="fade-right">
+        <dt class="font-medium text-gray-900"><strong>Sobre Nosotros</strong></dt>
+        <p class="mt-4 text-gray-500">Somos un pequeño negocio dedicado a la venta de produtcos de decoracion con gran
+          variedad de modelos.</p>
+      </div> 
+
+      <div class="descCab mx-auto grid grid-cols-1 items-center lg:grid-cols-2 gap-8 ">
+        <div class=" grid grid-cols-1  border-white pt-4" data-aos="zoom-in-right">
+            <div class=""> 
+              <h4 class="text-2xl font-bold border-b p-3 border-white" >Cabezas de Animales</h4>
+              <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+                <div class="border-b border-white pt-4">
+                  <dt class="font-medium text-gray-900" >Origen</dt>
+                  <dd class="mt-2 text-sm text-gray-500 p-3" >Tonala, Jalisco</dd>
+                </div>
+                <div class="border-b border-white pt-4">
+                  <dt class="font-medium text-gray-900" >Material</dt>
+                  <dd class="mt-2 text-sm text-gray-500 p-3" >Yeso Ceramico con Marmolina</dd>
+                </div>
+                <div class="border-b border-white pt-4">
+                  <dt class="font-medium text-gray-900" >Dimensions</dt>
+                  <dd class="mt-2 text-sm text-gray-500 p-3" >30 cm - 40 cm Aprox</dd>
+                </div>
+                <div class="border-b border-white pt-4">
+                  <dt class="font-medium text-gray-900" >Uso</dt>
+                  <dd class="mt-2 text-sm text-gray-500 p-3" >Decoracion de pared exterior/interior</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+          <div class="mx-auto grid grid-cols-2 items-center sm:gap-6 lg:gap-8">
+            <img src="Resource/Pictures/Dragon4.png" data-aos="flip-down"
+              alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
+              class="rounded-lg bg-white h-50">
+            <img src="Resource/Pictures/Leon1.png" data-aos="flip-down"
+              alt="Top down view of walnut card tray with embedded magnets and card groove."
+              class="rounded-lg bg-white h-50">
+          </div>
+        </div>
+
+      <div class="grid lg:grid-cols-12 sm:grid-cols-6 h-96 bloq1" data-aos="zoom-out">
+        <div class="col-span-3 bg-[url('Resource/Oso.jpg')] bg-center bg-cover"></div>
+        <div class="col-span-3 imgb2 bg-[url('Resource/Pictures/Oson1.png')] bg-center bg-cover"></div>
+        <div class="col-span-6 font-serif flex flex-col items-center bg-white">
+          <h3 class="text-center text-xl font-bold pt-10">Escultura de Cabeza de Leon (Dorado)</h3>
+          <p class="text-center p-4">Ideal para decoracion de interiores o exteriores. Colgante de pared que da un estilo unico a tu hogar</p>
+        </div>        
+      </div>
+
+      <div class="grid lg:grid-cols-12 sm:grid-cols-6 h-96 bloq1" data-aos="zoom-out">
+        <div class="col-span-6 font-serif flex flex-col items-center bg-white">
+          <h3 class="text-center text-xl font-bold pt-10">Escultura de Cabeza de Venado</h3>
+          <p class="text-center p-4">Ideal para decoracion de interiores o exteriores. Colgante de pared que da un estilo unico a tu hogar</p>
+        </div>        
+        <div class="col-span-3 imgb2 bg-[url('Resource/Pictures/Venado2.png')] bg-center bg-cover"></div>
+        <div class="col-span-3 bg-[url('Resource/Venado.jpg')] bg-center bg-cover"></div>
+      </div>
+   </section>
+
+   <section>
+
+      <div class="descCab mx-auto grid grid-cols-1 items-center lg:grid-cols-2 gap-8 ">
+        <div class=" grid grid-cols-1  border-white pt-4" data-aos="zoom-in-right">
+            <div class=""> 
+              <h4 class="text-2xl font-bold border-b p-3 border-white" >Cabezas de Animales</h4>
+              <dl class="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+                <div class="border-b border-white pt-4">
+                  <dt class="font-medium text-gray-900" >Origen</dt>
+                  <dd class="mt-2 text-sm text-gray-500 p-3" >Tonala, Jalisco</dd>
+                </div>
+                <div class="border-b border-white pt-4">
+                  <dt class="font-medium text-gray-900" >Material</dt>
+                  <dd class="mt-2 text-sm text-gray-500 p-3" >Yeso Ceramico con Marmolina</dd>
+                </div>
+                <div class="border-b border-white pt-4">
+                  <dt class="font-medium text-gray-900" >Dimensions</dt>
+                  <dd class="mt-2 text-sm text-gray-500 p-3" >30 cm - 40 cm Aprox</dd>
+                </div>
+                <div class="border-b border-white pt-4">
+                  <dt class="font-medium text-gray-900" >Uso</dt>
+                  <dd class="mt-2 text-sm text-gray-500 p-3" >Decoracion de pared exterior/interior</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+          <div class="mx-auto grid grid-cols-2 items-center sm:gap-6 lg:gap-8">
+            <img src="Resource/Pictures/Dragon4.png" data-aos="flip-down"
+              alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
+              class="rounded-lg bg-white h-50">
+            <img src="Resource/Pictures/Leon1.png" data-aos="flip-down"
+              alt="Top down view of walnut card tray with embedded magnets and card groove."
+              class="rounded-lg bg-white h-50">
+          </div>
+        </div>
+
+      <div class="grid lg:grid-cols-12 sm:grid-cols-6 h-96 bloq1" data-aos="zoom-out">
+        <div class="col-span-3 bg-[url('Resource/Oso.jpg')] bg-center bg-cover"></div>
+        <div class="col-span-3 imgb2 bg-[url('Resource/Pictures/Oson1.png')] bg-center bg-cover"></div>
+        <div class="col-span-6 font-serif flex flex-col items-center bg-white">
+          <h3 class="text-center text-xl font-bold pt-10">Escultura de Cabeza de Leon (Dorado)</h3>
+          <p class="text-center p-4">Ideal para decoracion de interiores o exteriores. Colgante de pared que da un estilo unico a tu hogar</p>
+        </div>        
+      </div>
+
+      <div class="grid lg:grid-cols-12 sm:grid-cols-6 h-96 bloq1" data-aos="zoom-out">
+        <div class="col-span-6 font-serif flex flex-col items-center bg-white">
+          <h3 class="text-center text-xl font-bold pt-10">Escultura de Cabeza de Venado</h3>
+          <p class="text-center p-4">Ideal para decoracion de interiores o exteriores. Colgante de pared que da un estilo unico a tu hogar</p>
+        </div>        
+        <div class="col-span-3 imgb2 bg-[url('Resource/Pictures/Venado2.png')] bg-center bg-cover"></div>
+        <div class="col-span-3 bg-[url('Resource/Venado.jpg')] bg-center bg-cover"></div>
+      </div>
+   </section>
+
+  
+    </div>
+  </main>
+  
+  <footer class="bg-gray-700 text-white pb-10">
+    <div>
+      <div class="pt-10 m-5 text-center">
+        <h4 class="">Siguenos en nuestras redes sociales donde podras contactarnos y ver nuestro contenido</h4>
+      </div>
+      <div <div class="flex justify-center gap-20 grid-cols-4 items-center mx-auto p-4">
+        <p class="text-center text-gray-400 hover:text-yellow-500">Inicio </p>
+        <p class="text-center text-gray-400 hover:text-yellow-500">Decoracion</p>
+        <p class="text-center text-gray-400 hover:text-yellow-500">Macetas</p>
+        <p class="text-center text-gray-400 hover:text-yellow-500">Otros</p>
+      </div>
+      <div <div class="grid-cols-2 items-center mx-auto p-8 flex justify-center gap-8">
+        <a href="https://www.instagram.com/penny.star_/" class="text-center mx-2"><img src="Resource/instagram.png" alt="Instagram"></a>
+        <a href="https://www.tiktok.com/@penny.star_" class="text-center mx-2"><img src="Resource/tik-tok.png" alt=""></a>
+      </div>
+       <h4 class="text-center">&copy;  2023 Todos los derechos reservados</h4>
+
+      </div>
+    </div>
+  </footer>
+  <script src="funciones.js"></script>
+
+  <!-- Script Animaciones AOS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="tailwind.config.js"></script>
+  <script src="funciones.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>

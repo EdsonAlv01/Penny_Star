@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penny Star</title>
+    <link rel="shortcut icon" href="Resource/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  
+  <body>
+    <nav class="p-5" >
+      <div class="max-w-xl px-2 sm:px-6 lg:px-8">
+        <div class="relative flex ">
+          <div id="mobile-menu" class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            <!-- Mobile menu button-->
+            <button type="button" class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+              
+              <!--
+                Icon when menu is closed.
+    
+                Menu open: "hidden", Menu closed: "block"
+              -->
+              <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              <!--
+                Icon when menu is open.
+    
+                Menu open: "block", Menu closed: "hidden"
+              -->
+              <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>          
+          </div>
+          <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+            <div class="flex flex-shrink-0 items-center">
+              <img class="h-8 w-auto" src="Resource/logo.png" alt="PennyStar_Logo">
+            </div>
+            <div class="hidden sm:ml-6 sm:block">
+              <div class="flex space-x-4">
+                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                <a href="index.html" class="text-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium" >Inicio</a>
+                <a href="decoracion.html" class="bg-yellow-500 text-white hover:text-black rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Decoracion</a>
+                <a href="macetas.html" class="text-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Macetas</a>
+                <a href="otros.html" class="text-black hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Otros</a>
+              </div>
+            </div>
+          </div>
+         
+          </div>
+        </div>
+      </div>
+      <div class="sm:hidden mobile-menu-hidden" id="mobile-menu">
+        <div class="space-y-1 px-2 pb-3 pt-2">
+          <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+          <a href="index.html" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Inicio</a>
+          <a href="decoracion.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Decoracion</a>
+          <a href="macetas.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Macetas</a>
+          <a href="otros.html" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Otros</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container mx-auto p-4">
+        <div class="bg-white">
+            <div class="mx-auto max-w-2xl px-4 py-6 sm:px-6 sm:py-6 lg:max-w-7xl lg:px-8">
+              <h2 class="text-2xl font-bold tracking-tight text-gray-900">Cabezas de Animales para Decoracion</h2>
+          
+              <div class="mt-6 grid grid-cols-4 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+                <div class="group relative">
+                  <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="Resource/Pictures/Aguila1.png" alt="Aguila" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  </div>
+                  <div class="mt-4 flex justify-between">
+                    <div>
+                      <h3 class="text-sm text-gray-700">
+                        <a href="#">
+                          <span aria-hidden="true" class="absolute inset-0"></span>
+                          Aguila
+                        </a>
+                      </h3>
+                      <p class="mt-1 text-sm text-gray-500">35x38 cm</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group relative">
+                  <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="Resource/Pictures/Dragon3.png" alt="Aguila" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  </div>
+                  <div class="mt-4 flex justify-between">
+                    <div>
+                      <h3 class="text-sm text-gray-700">
+                        <a href="#">
+                          <span aria-hidden="true" class="absolute inset-0"></span>
+                          Dragon
+                        </a>
+                      </h3>
+                      <p class="mt-1 text-sm text-gray-500">35x38 cm</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group relative">
+                  <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="Resource/Pictures/Lobo3.png" alt="Aguila" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  </div>
+                  <div class="mt-4 flex justify-between">
+                    <div>
+                      <h3 class="text-sm text-gray-700">
+                        <a href="#">
+                          <span aria-hidden="true" class="absolute inset-0"></span>
+                          Lobo
+                        </a>
+                      </h3>
+                      <p class="mt-1 text-sm text-gray-500">35x38 cm</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group relative">
+                  <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="Resource/Pictures/Oso1.png" alt="Aguila" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  </div>
+                  <div class="mt-4 flex justify-between">
+                    <div>
+                      <h3 class="text-sm text-gray-700">
+                        <a href="#">
+                          <span aria-hidden="true" class="absolute inset-0"></span>
+                          Oso Agresivo
+                        </a>
+                      </h3>
+                      <p class="mt-1 text-sm text-gray-500">35x38 cm</p>
+                    </div>
+                  </div> 
+                </div>
+
+                <div class="group relative">
+                  <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="Resource/Pictures/Oson1.png" alt="Aguila" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  </div>
+                  <div class="mt-4 flex justify-between">
+                    <div>
+                      <h3 class="text-sm text-gray-700">
+                        <a href="#">
+                          <span aria-hidden="true" class="absolute inset-0"></span>
+                          Oso Serio
+                        </a>
+                      </h3>
+                      <p class="mt-1 text-sm text-gray-500">35x38 cm</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group relative">
+                  <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="Resource/Pictures/Puma1.png" alt="Aguila" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  </div>
+                  <div class="mt-4 flex justify-between">
+                    <div>
+                      <h3 class="text-sm text-gray-700">
+                        <a href="#">
+                          <span aria-hidden="true" class="absolute inset-0"></span>
+                          Puma
+                        </a>
+                      </h3>
+                      <p class="mt-1 text-sm text-gray-500">35x38 cm</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group relative">
+                  <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="Resource/Pictures/Tigre1.png" alt="Aguila" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  </div>
+                  <div class="mt-4 flex justify-between">
+                    <div>
+                      <h3 class="text-sm text-gray-700">
+                        <a href="#">
+                          <span aria-hidden="true" class="absolute inset-0"></span>
+                          Tigre
+                        </a>
+                      </h3>
+                      <p class="mt-1 text-sm text-gray-500">35x38 cm</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group relative">
+                  <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="Resource/Pictures/Venado1.png" alt="Aguila" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  </div>
+                  <div class="mt-4 flex justify-between">
+                    <div>
+                      <h3 class="text-sm text-gray-700">
+                        <a href="#">
+                          <span aria-hidden="true" class="absolute inset-0"></span>
+                          Venado
+                        </a>
+                      </h3>
+                      <p class="mt-1 text-sm text-gray-500">35x38 cm</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group relative">
+                  <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="Resource/Pictures/Leon2.png" alt="Aguila" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  </div>
+                  <div class="mt-4 flex justify-between">
+                    <div>
+                      <h3 class="text-sm text-gray-700">
+                        <a href="#">
+                          <span aria-hidden="true" class="absolute inset-0"></span>
+                          Leon
+                        </a>
+                      </h3>
+                      <p class="mt-1 text-sm text-gray-500">35x38 cm</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group relative">
+                  <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="Resource/Pictures/Elefante P/Elefante2.png" alt="Aguila" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  </div>
+                  <div class="mt-4 flex justify-between">
+                    <div>
+                      <h3 class="text-sm text-gray-700">
+                        <a href="#">
+                          <span aria-hidden="true" class="absolute inset-0"></span>
+                          Elefante
+                        </a>
+                      </h3>
+                      <p class="mt-1 text-sm text-gray-500">35x38 cm</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group relative">
+                  <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="Resource/Pictures/Gorila P/Gorila1.png" alt="Aguila" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  </div>
+                  <div class="mt-4 flex justify-between">
+                    <div>
+                      <h3 class="text-sm text-gray-700">
+                        <a href="#">
+                          <span aria-hidden="true" class="absolute inset-0"></span>
+                          Gorila
+                        </a>
+                      </h3>
+                      <p class="mt-1 text-sm text-gray-500">35x38 cm</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group relative">
+                  <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="Resource/Pictures/Jirafa P/Jirafa1.png" alt="Aguila" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  </div>
+                  <div class="mt-4 flex justify-between">
+                    <div>
+                      <h3 class="text-sm text-gray-700">
+                        <a href="#">
+                          <span aria-hidden="true" class="absolute inset-0"></span>
+                          Jirafa
+                        </a>
+                      </h3>
+                      <p class="mt-1 text-sm text-gray-500">35x38 cm</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group relative">
+                  <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="Resource/Pictures/Leon P/Leon1.png" alt="Aguila" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  </div>
+                  <div class="mt-4 flex justify-between">
+                    <div>
+                      <h3 class="text-sm text-gray-700">
+                        <a href="#">
+                          <span aria-hidden="true" class="absolute inset-0"></span>
+                          Leon
+                        </a>
+                      </h3>
+                      <p class="mt-1 text-sm text-gray-500">35x38 cm</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="group relative">
+                  <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="Resource/Pictures/Rino P/Rino1.png" alt="Aguila" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  </div>
+                  <div class="mt-4 flex justify-between">
+                    <div>
+                      <h3 class="text-sm text-gray-700">
+                        <a href="#">
+                          <span aria-hidden="true" class="absolute inset-0"></span>
+                          Rinoceronte
+                        </a>
+                      </h3>
+                      <p class="mt-1 text-sm text-gray-500">35x38 cm</p>
+                    </div>
+                  </div>
+                </div>
+                <!-- More products... -->
+              </div>
+            </div>
+          </div>
+    </main>
+  </body>
+</html>
